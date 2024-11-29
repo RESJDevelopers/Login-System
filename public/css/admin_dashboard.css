@@ -1,0 +1,77 @@
+/* Estilo general del contenedor del dashboard */
+.admin-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título */
+.admin-dashboard h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo del campo de búsqueda */
+.admin-dashboard #search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo de la tabla */
+.admin-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo de las celdas y encabezados */
+.admin-dashboard table th, .admin-dashboard table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo de los encabezados */
+.admin-dashboard table th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo de los botones */
+.admin-dashboard button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilo específico del botón de cerrar sesión */
+.admin-dashboard .logout-button {
+    background-color: #f44336;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+/* Estilo de los formularios */
+.admin-dashboard form {
+    display: inline-block;
+    margin: 0;
+}
+
+.admin-dashboard select {
+    padding: 5px;
+    border-radius: 4px;
+}
